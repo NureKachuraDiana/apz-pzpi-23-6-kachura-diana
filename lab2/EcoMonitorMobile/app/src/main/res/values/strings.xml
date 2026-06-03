@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoMonitor</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_notifications">Notifications</string>
+
+    <!-- Auth -->
+    <string name="login_title">EcoMonitor</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Sign in</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_first_name">First name</string>
+    <string name="profile_last_name">Last name</string>
+    <string name="profile_role">Role: %1$s</string>
+    <string name="profile_last_login">Last login: %1$s</string>
+    <string name="profile_save">Save</string>
+    <string name="profile_logout">Log out</string>
+    <string name="profile_settings">Settings</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_loading">Loading settings…</string>
+    <string name="settings_retry">Try again</string>
+    <string name="settings_description">Manage language, units, and notifications</string>
+    <string name="settings_saved">Settings saved</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_description">App interface language</string>
+    <string name="settings_language_uk">Ukrainian</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_measurement_unit">Units of measurement</string>
+    <string name="settings_measurement_description">Temperature and distance system</string>
+    <string name="settings_unit_metric">Metric (Celsius, km)</string>
+    <string name="settings_unit_imperial">Imperial (Fahrenheit, miles)</string>
+    <string name="settings_dark_mode">Dark theme</string>
+    <string name="settings_dark_mode_description">Enable dark interface mode</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_enable">Enable notifications</string>
+    <string name="settings_notifications_description">Master switch for all notification types</string>
+    <string name="settings_email">Email</string>
+    <string name="settings_email_description">Notifications by email</string>
+    <string name="settings_push">Push</string>
+    <string name="settings_push_description">In-app push notifications</string>
+    <string name="settings_sms">SMS</string>
+    <string name="settings_sms_description">SMS notifications to your phone</string>
+    <string name="settings_enabled">On</string>
+    <string name="settings_disabled">Off</string>
+    <string name="settings_saving">Saving…</string>
+    <string name="settings_save">Save settings</string>
+    <string name="settings_error_no_changes">No changes to save</string>
+    <string name="settings_error_load">Failed to load settings</string>
+    <string name="settings_error_update">Failed to update settings</string>
+    <string name="back">Back</string>
+
+    <!-- Home / map -->
+    <string name="home_retry">Retry</string>
+    <string name="station_active">Active</string>
+    <string name="station_inactive">Inactive</string>
+
+    <!-- Station sheet -->
+    <string name="station_latest_readings">Latest readings</string>
+    <string name="station_no_readings">No readings yet</string>
+    <string name="station_details">Details</string>
+    <string name="station_close">Close</string>
+    <string name="station_sheet_loading">Loading readings…</string>
+
+    <!-- Station info -->
+    <string name="station_info_subtitle">Monitoring station</string>
+    <string name="station_tab_info">Information</string>
+    <string name="station_tab_sensors">Sensors</string>
+    <string name="station_tab_readings">Readings</string>
+    <string name="station_readonly_notice">View-only mode: data cannot be edited.</string>
+    <string name="station_active_sensors">Active sensors: %1$d of %2$d</string>
+    <string name="station_no_active_sensors">No active sensors at this station</string>
+    <string name="station_latest_readings_count">Latest readings (%1$d)</string>
+    <string name="station_no_readings_tab">No readings for this station yet</string>
+    <string name="station_label_name">Name</string>
+    <string name="station_label_status">Status</string>
+    <string name="station_label_address">Address</string>
+    <string name="station_label_description">Description</string>
+    <string name="station_label_altitude">Altitude</string>
+    <string name="station_label_coordinates">Coordinates</string>
+    <string name="station_altitude_value">%1$s m</string>
+
+    <!-- Sensors / readings -->
+    <string name="sensor_serial">S/N: %1$s</string>
+    <string name="sensor_model">Model: %1$s</string>
+    <string name="reading_quality">Data quality: %1$d%%</string>
+    <string name="reading_threshold_violations">Threshold violations: %1$d</string>
+
+    <!-- Sensor types -->
+    <string name="sensor_type_temperature">Temperature</string>
+    <string name="sensor_type_humidity">Humidity</string>
+    <string name="sensor_type_pressure">Pressure</string>
+    <string name="sensor_type_air_quality">Air quality</string>
+    <string name="sensor_type_pm25">PM2.5</string>
+    <string name="sensor_type_pm10">PM10</string>
+    <string name="sensor_type_co2">CO₂</string>
+    <string name="sensor_type_no2">NO₂</string>
+    <string name="sensor_type_o3">O₃</string>
+    <string name="sensor_type_so2">SO₂</string>
+    <string name="sensor_type_wind_speed">Wind speed</string>
+    <string name="sensor_type_wind_direction">Wind direction</string>
+    <string name="sensor_type_rainfall">Rainfall</string>
+    <string name="sensor_type_uv_index">UV index</string>
+    <string name="sensor_type_noise">Noise</string>
+    <string name="sensor_type_voc">VOC</string>
+    <string name="sensor_type_other">Other</string>
+
+    <!-- Placeholder screens -->
+    <string name="favorites_welcome">Welcome to Favorites</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_empty">No notifications</string>
+    <string name="notifications_mark_all_read">Mark all as read</string>
+    <string name="notifications_filter_all">All</string>
+    <string name="notifications_filter_unread">Unread</string>
+    <string name="notifications_filter_read">Read</string>
+    <string name="notifications_unread_badge">New</string>
+    <string name="notification_channel_name">Threshold alerts</string>
+    <string name="notification_channel_description">Real-time sensor threshold warnings</string>
+    <string name="alert_dismiss">Dismiss</string>
+    <string name="alert_view_station">View on map</string>
+    <string name="alert_reading_label">Reading</string>
+    <string name="alert_severity_label">Severity</string>
+    <string name="station_alert_snippet">Threshold alert active</string>
+
+    <!-- Errors -->
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_load_stations">Failed to load stations</string>
+    <string name="error_station_detail">Failed to load station data</string>
+</resources>

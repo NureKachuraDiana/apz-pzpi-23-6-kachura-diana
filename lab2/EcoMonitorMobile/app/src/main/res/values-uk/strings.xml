@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoMonitor</string>
+
+    <string name="nav_home">Головна</string>
+    <string name="nav_favorites">Обране</string>
+    <string name="nav_profile">Профіль</string>
+    <string name="nav_notifications">Сповіщення</string>
+
+    <string name="login_title">EcoMonitor</string>
+    <string name="login_email">Електронна пошта</string>
+    <string name="login_password">Пароль</string>
+    <string name="login_button">Увійти</string>
+
+    <string name="profile_title">Профіль</string>
+    <string name="profile_first_name">Ім\'я</string>
+    <string name="profile_last_name">Прізвище</string>
+    <string name="profile_role">Роль: %1$s</string>
+    <string name="profile_last_login">Останній вхід: %1$s</string>
+    <string name="profile_save">Зберегти</string>
+    <string name="profile_logout">Вийти</string>
+    <string name="profile_settings">Налаштування</string>
+
+    <string name="settings_title">Налаштування</string>
+    <string name="settings_loading">Завантаження налаштувань…</string>
+    <string name="settings_retry">Спробувати знову</string>
+    <string name="settings_description">Керуйте мовою, одиницями вимірювання та сповіщеннями</string>
+    <string name="settings_saved">Налаштування збережено</string>
+    <string name="settings_language">Мова</string>
+    <string name="settings_language_description">Мова інтерфейсу додатку</string>
+    <string name="settings_language_uk">Українська</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_measurement_unit">Одиниці вимірювання</string>
+    <string name="settings_measurement_description">Система вимірювання температури та відстані</string>
+    <string name="settings_unit_metric">Метрична (Цельсій, км)</string>
+    <string name="settings_unit_imperial">Імперська (Фаренгейт, милі)</string>
+    <string name="settings_dark_mode">Темна тема</string>
+    <string name="settings_dark_mode_description">Увімкніть темний режим інтерфейсу</string>
+    <string name="settings_notifications">Сповіщення</string>
+    <string name="settings_notifications_enable">Увімкнути сповіщення</string>
+    <string name="settings_notifications_description">Загальний перемикач для всіх типів сповіщень</string>
+    <string name="settings_email">Email</string>
+    <string name="settings_email_description">Сповіщення на електронну пошту</string>
+    <string name="settings_push">Push</string>
+    <string name="settings_push_description">Push-сповіщення в додатку</string>
+    <string name="settings_sms">SMS</string>
+    <string name="settings_sms_description">SMS-сповіщення на телефон</string>
+    <string name="settings_enabled">Увімкнено</string>
+    <string name="settings_disabled">Вимкнено</string>
+    <string name="settings_saving">Збереження…</string>
+    <string name="settings_save">Зберегти налаштування</string>
+    <string name="settings_error_no_changes">Немає змін для збереження</string>
+    <string name="settings_error_load">Не вдалося завантажити налаштування</string>
+    <string name="settings_error_update">Не вдалося оновити налаштування</string>
+    <string name="back">Назад</string>
+
+    <string name="home_retry">Повторити</string>
+    <string name="station_active">Активна</string>
+    <string name="station_inactive">Неактивна</string>
+
+    <string name="station_latest_readings">Останні показання</string>
+    <string name="station_no_readings">Показань ще немає</string>
+    <string name="station_details">Детальніше</string>
+    <string name="station_close">Закрити</string>
+    <string name="station_sheet_loading">Завантаження показань…</string>
+
+    <string name="station_info_subtitle">Станція моніторингу</string>
+    <string name="station_tab_info">Інформація</string>
+    <string name="station_tab_sensors">Датчики</string>
+    <string name="station_tab_readings">Показання</string>
+    <string name="station_readonly_notice">Режим перегляду: дані доступні лише для читання.</string>
+    <string name="station_active_sensors">Активні датчики: %1$d з %2$d</string>
+    <string name="station_no_active_sensors">Немає активних датчиків на цій станції</string>
+    <string name="station_latest_readings_count">Останні показання (%1$d)</string>
+    <string name="station_no_readings_tab">Показань для цієї станції ще немає</string>
+    <string name="station_label_name">Назва</string>
+    <string name="station_label_status">Статус</string>
+    <string name="station_label_address">Адреса</string>
+    <string name="station_label_description">Опис</string>
+    <string name="station_label_altitude">Висота</string>
+    <string name="station_label_coordinates">Координати</string>
+    <string name="station_altitude_value">%1$s м</string>
+
+    <string name="sensor_serial">S/N: %1$s</string>
+    <string name="sensor_model">Модель: %1$s</string>
+    <string name="reading_quality">Якість даних: %1$d%%</string>
+    <string name="reading_threshold_violations">Порушення порогу: %1$d</string>
+
+    <string name="sensor_type_temperature">Температура</string>
+    <string name="sensor_type_humidity">Вологість</string>
+    <string name="sensor_type_pressure">Тиск</string>
+    <string name="sensor_type_air_quality">Якість повітря</string>
+    <string name="sensor_type_pm25">PM2.5</string>
+    <string name="sensor_type_pm10">PM10</string>
+    <string name="sensor_type_co2">CO₂</string>
+    <string name="sensor_type_no2">NO₂</string>
+    <string name="sensor_type_o3">O₃</string>
+    <string name="sensor_type_so2">SO₂</string>
+    <string name="sensor_type_wind_speed">Швидкість вітру</string>
+    <string name="sensor_type_wind_direction">Напрям вітру</string>
+    <string name="sensor_type_rainfall">Опади</string>
+    <string name="sensor_type_uv_index">УФ-індекс</string>
+    <string name="sensor_type_noise">Шум</string>
+    <string name="sensor_type_voc">ЛОС</string>
+    <string name="sensor_type_other">Інший</string>
+
+    <string name="favorites_welcome">Ласкаво просимо до Обраного</string>
+
+    <string name="notifications_title">Сповіщення</string>
+    <string name="notifications_empty">Немає сповіщень</string>
+    <string name="notifications_mark_all_read">Позначити всі прочитаними</string>
+    <string name="notifications_filter_all">Усі</string>
+    <string name="notifications_filter_unread">Непрочитані</string>
+    <string name="notifications_filter_read">Прочитані</string>
+    <string name="notifications_unread_badge">Нове</string>
+    <string name="notification_channel_name">Порогові сповіщення</string>
+    <string name="notification_channel_description">Попередження про перевищення порогів датчиків</string>
+    <string name="alert_dismiss">Закрити</string>
+    <string name="alert_view_station">На карті</string>
+    <string name="alert_reading_label">Показання</string>
+    <string name="alert_severity_label">Рівень</string>
+    <string name="station_alert_snippet">Активне порогове сповіщення</string>
+
+    <string name="error_unknown">Невідома помилка</string>
+    <string name="error_load_stations">Не вдалося завантажити станції</string>
+    <string name="error_station_detail">Не вдалося завантажити дані станції</string>
+</resources>
